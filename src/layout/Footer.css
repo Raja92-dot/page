@@ -1,0 +1,40 @@
+/* Transparent Footer Styling */
+.footer {
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+    backdrop-filter: blur(1px); /* Subtle blur effect */
+    padding: 1px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #071007; /* Hover effect */
+  }
+  
+  .footer-text {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
