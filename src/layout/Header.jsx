@@ -21,7 +21,7 @@ function Header() {
           margin: 0,
           padding: 0,
         }}>
-          <li><Link to="/home" style={linkStyle}>Home</Link></li>
+          <li><Link to="/" style={linkStyle}>Home</Link></li>
           <li><Link to="/about" style={linkStyle}>About</Link></li>
           <li><Link to="/contact" style={linkStyle}>Contact</Link></li>
           <li><Link to="/faq" style={linkStyle}>FAQ</Link></li>
