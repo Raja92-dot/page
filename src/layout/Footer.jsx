@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <nav>
         <ul className="footer-nav">
-          <li><Link to="/home" className="footer-link">Home</Link></li>
+          <li><Link to="/" className="footer-link">Home</Link></li>
           <li><Link to="/about" className="footer-link">About</Link></li>
           <li><Link to="/contact" className="footer-link">Contact</Link></li>
           <li><Link to="/faq" className="footer-link">FAQ</Link></li>
