@@ -22,11 +22,11 @@ function App() {
      <Routes>
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/home" element={<Home />} />
-        <Route path='gallery' element={<Gallery/>}/>
-        <Route path='faq' element={<Faq/>}/>
-        <Route path='login' element={<Login/>}/>
-        <Route path='signup' element={<Signup/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/faq' element={<Faq/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Signup/>}/>
         </Routes>
         <Footer />
         </BrowserRouter>
